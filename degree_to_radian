@@ -1,0 +1,7 @@
+#this is python code for degree to radian conversion
+d=int(input('Enter the degree value='))
+r=d*((22/7)*1/180)
+if d<0:
+    print("Please Provide number greater than 0")
+else:
+    print(r)
